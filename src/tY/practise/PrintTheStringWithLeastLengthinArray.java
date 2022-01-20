@@ -9,7 +9,7 @@ public class PrintTheStringWithLeastLengthinArray {
 	String min = str[0];
 	for(int i=0; i<str.length; i++)
 	{
-		if(min.length()>str[i].length())
+		if(min.length()<str[i].length())
 		{
 			min = str[i];
 		}

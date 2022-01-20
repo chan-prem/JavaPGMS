@@ -23,7 +23,7 @@ public class FIrstLetterofChrtoUpperCase {
 			{
 				System.out.print(str[i].charAt(j));
 			}
-			System.out.print(" ");
+			 System.out.print(" ");
 		}		
 	}
 }

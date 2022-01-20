@@ -17,7 +17,7 @@ public class Tester {
 	
 	int num = 0;
 	for (Character ch : set) {
-		/*String s1=ch+ "";
+		String s1=ch+ "";
 		for(int j=0; j<str.length(); j++)
 		{
 			String s2=str.charAt(j)+ "";
@@ -26,8 +26,8 @@ public class Tester {
 				num = j+1;
 			}
 		}
-		system.out.println(ch+" "+num);
-		*/
+		System.out.println(ch+" "+num);
+	
 		int ind = str.lastIndexOf(ch);
 		System.out.println(ch +" = "+ ind);
 	}
